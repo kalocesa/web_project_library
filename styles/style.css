@@ -380,7 +380,7 @@ margin: 0;
   color: white;
   text-decoration: none;
   display: flex;
-  align-items:flex-end;
+  align-items: center;
   column-gap: 10px;
 }
 
