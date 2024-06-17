@@ -28,10 +28,10 @@
               <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a class="nav__link">Conviértete en miembro</a>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
             </li>
             <li>
-              <a class="nav__link">Contactos</a>
+              <a class="nav__link" href="#contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -176,30 +176,54 @@
           </div>
 
           <div class="events__cover">
-            <img src="./images/cafe.png" alt="cafetería de la biblioteca" class="events__image"/>
+            <img 
+            src="./images/cafe.png" 
+            alt="cafetería de la biblioteca" 
+            class="events__image"
+            />
             <div class="person person_name_feynman">
               <p class="person person__caption">Joan Feynman</p>
-              <img src="./images/person_feynman.png" alt="Joan Feynman" class="person__image person__image_size_l"/>
+              <img 
+              src="./images/person_feynman.png" 
+              alt="Joan Feynman" 
+              class="person__image person__image_size_l"
+              />
             </div>
             <div class="person person_name_burbidge">
               <p class="person person__caption">Margaret Burbidge</p>
-              <img src="./images/person_burbidge.png" alt="Margaret Burbidge" class="person__image person__image_size_m"/>
+              <img 
+              src="./images/person_burbidge.png" 
+              alt="Margaret Burbidge" 
+              class="person__image person__image_size_m"
+              />
             </div>
             <div class="person person_name_cannon">              
-              <img src="./images/person_cannon.png" alt="Annie Jump Cannon" class="person__image person__image_size_m"/>
+              <img 
+              src="./images/person_cannon.png" 
+              alt="Annie Jump Cannon" 
+              class="person__image person__image_size_m"
+              />
               <p class="person person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">              
-              <img src="./images/person_mitchell.png" alt="Maria Mitchell" class="person__image person__image_size_s"/>
+              <img
+              src="./images/person_mitchell.png" 
+              alt="Maria Mitchell" 
+              class="person__image person__image_size_s"
+              />
               <p class="person person__caption">Maria Mitchell</p>
             </div>
             <div class="person person_name_tarter">
               <p class="person person__caption">Jill Tarter</p>
-              <img src="./images/person_tarter.png" alt="Jill Tarter" class="person__image person__image_size_m"/>
+              <img 
+              src="./images/person_tarter.png" 
+              alt="Jill Tarter" 
+              class="person__image person__image_size_m"
+              />
             </div>
           </div>
         </section>
-        <section class="membership">
+        <section class="membership" id="membership">
           <h2 class="membership__title">¡Convertirse en miembro es muy fácil!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -254,41 +278,53 @@
             </li>
           </ul>
         </section>
-      </main>      
-    </div>
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column">
-          <img class="footer__logo" src="./images/logo_white.svg" alt="logo de biblioteca Triple">
+      </main>  
+      <footer class="footer" id="contactos">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img 
+            class="footer__logo" 
+            src="./images/logo_white.svg" 
+            alt="Logo de la biblioteca tripleten"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Horario de apertura</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Lunes a viernes: 9 a.m. - 8 p.m.
+              </li>
+              <li class="footer__list-item">
+                Sábados y domingos: 10 a.m. - 6 p.m.
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img 
+                class="footer__social-icon" 
+                src="./images/facebook_white.svg" 
+                alt="Logo de facebook"
+                />
+                <a class="footer__column-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img 
+                class="footer__social-icon" 
+                src="./images/instagram_white.svg" 
+                alt="Logo de Instagram"
+                />
+                <a class="footer__column-link" href="#">Instagram</a>
+              </li>
+            </ul>            
+          </div>
         </div>
-        <div class="footer__column_content_hours">
-          <h3 class="footer__column-heading">Horario de apertura</h3>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <p>Lunes a viernes: 9 a.m.- 8 p.m.</p>
-            </li>
-            <li class="footer__list-item">
-              <p>Sábados y domingos: 10 a.m. - 6 p.m.</p>
-            </li>              
-          </ul>
+        <div class="footer__copyright">
+          <p>"© 2024 Katia Sandoval".</p>
         </div>
-        <div class="footer__column_content_social">
-          <h3 class="footer__column-heading">Redes sociales</h3>
-          <ul class="footer__list">
-            <li class="footer__list-item">              
-              <img class="footer__social-icon" src="./images/facebook_white.svg"/>
-              <a class="footer__column-link" href="#">Facebook</a>
-            </li>
-            <li class="footer__list-item">              
-              <img class="footer__social-icon" src="./images/instagram_white.svg"/>
-              <a class="footer__column-link" href="#">Instagram</a>
-            </li>                
-          </ul>             
-        </div>
-        <div class="footer__copyright"> <!--Creo que voy a tener que quitar el div y dejar solo el p-->
-          <p>"© 2024 Kati Sandoval".</p> <!--acuerdate de quitar el footer__text en caso que no se ocupe-->
-        </div>
-      </div>
-    </footer>
+      </footer>    
+    </div>    
   </body>
 </html>

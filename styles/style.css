@@ -337,52 +337,55 @@ margin: 0;
   margin: 10px 0 0;
 }
 
-.footer { /*A partir de aquí empezamos con el footer, es lo que nos falta*/
-  padding: 60px 80px; /*esta bien*/
-  background-color: #1f1f1f; /*esta bien*/
-  color:#ffffff; /*esta bien*/
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-border: 1px solid white;
-
-}
-
-.footer__logo {
- width: 58px;
- height: 80px;
+  display: flex; 
+  justify-content: flex-end;
 }
 
 .footer__column_content_hours {
-  
+ margin: 0 0 0 auto;
 }
 
 .footer__column_content_social {
+ margin-left: 80px;
+}
 
+.footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
-padding-bottom: 20px;
+ margin: 0 0 20px 0;
 }
+
 .footer__list {
-  list-style-type: none; /*es del css dado, al igual que padding y margin*/
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
-  margin: 0;
+ margin-top: 16px;
 }
 
 .footer__column-link {
-  color: white; /*es del css dado, tambien text-decoration*/
+  color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
-padding-right: 10px; /*está bien*/
-width: 16px;
+  margin-right: 10px;
+  width: 16px
 }
 
 .footer__copyright {
+  margin-top: 100px;
 }
